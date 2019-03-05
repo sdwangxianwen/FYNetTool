@@ -64,6 +64,7 @@
 		1E897479222E40D400B465EA /* FYNetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNetWorkHelper.m; sourceTree = "<group>"; };
 		1E89747A222E40D400B465EA /* FYNetWorkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNetWorkCache.h; sourceTree = "<group>"; };
 		1E89747D222E410800B465EA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1E89747E222E422400B465EA /* FYNetTool.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FYNetTool.podspec; sourceTree = SOURCE_ROOT; };
 		488F989A764423B92131C60D /* libPods-FYNetToolUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYNetToolUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EB1286888F13885145F720 /* Pods-FYNetTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetTool.release.xcconfig"; path = "Target Support Files/Pods-FYNetTool/Pods-FYNetTool.release.xcconfig"; sourceTree = "<group>"; };
 		926DECBEA4869BA404F028D4 /* Pods-FYNetToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetToolUITests.release.xcconfig"; path = "Target Support Files/Pods-FYNetToolUITests/Pods-FYNetToolUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 				1E8973FC222E1F7D00B465EA /* AppDelegate.m */,
 				1E8973FE222E1F7D00B465EA /* ViewController.h */,
 				1E8973FF222E1F7D00B465EA /* ViewController.m */,
+				1E89747E222E422400B465EA /* FYNetTool.podspec */,
 				1E897401222E1F7D00B465EA /* Main.storyboard */,
 				1E897404222E1F7E00B465EA /* Assets.xcassets */,
 				1E897406222E1F7E00B465EA /* LaunchScreen.storyboard */,
