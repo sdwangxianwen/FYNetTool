@@ -17,7 +17,7 @@ s.license             = { :type => "Copyright", :text => "Copyright 2011 - 2018 
 s.author             = { "wangwen" => "870183756@qq.com" }
 s.platform            = :ios, "9.0"
 s.source              = { :git => "https://github.com/sdwangxianwen/FYNetTool.git", :tag => s.version }
-s.source_files        = "FYNetTool/FYNetTool/*.{h,m}"
+s.source_files        = "FYNetTool/*.{h,m}"
 
 s.dependency          "AFNetworking"
 s.dependency          "YYCache"
