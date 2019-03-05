@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8973FD222E1F7D00B465EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8973FC222E1F7D00B465EA /* AppDelegate.m */; };
+		1E897400222E1F7D00B465EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8973FF222E1F7D00B465EA /* ViewController.m */; };
+		1E897403222E1F7D00B465EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E897401222E1F7D00B465EA /* Main.storyboard */; };
+		1E897405222E1F7E00B465EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E897404222E1F7E00B465EA /* Assets.xcassets */; };
+		1E897408222E1F7E00B465EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E897406222E1F7E00B465EA /* LaunchScreen.storyboard */; };
+		1E89740B222E1F7E00B465EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E89740A222E1F7E00B465EA /* main.m */; };
+		1E897415222E1F7E00B465EA /* FYNetToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E897414222E1F7E00B465EA /* FYNetToolTests.m */; };
+		1E897420222E1F7E00B465EA /* FYNetToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E89741F222E1F7E00B465EA /* FYNetToolUITests.m */; };
+		1E89747B222E40D400B465EA /* FYNetWorkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E897478222E40D400B465EA /* FYNetWorkCache.m */; };
+		1E89747C222E40D400B465EA /* FYNetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E897479222E40D400B465EA /* FYNetWorkHelper.m */; };
+		2D1AAC188CCBADF1501BB8B1 /* libPods-FYNetTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E757ECC6D44F03376465C99 /* libPods-FYNetTool.a */; };
+		36053E1B1429AEDB9B33E9A2 /* libPods-FYNetToolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F791FE93FA39B48AF84D4F /* libPods-FYNetToolTests.a */; };
+		6AD96B90AAE022735B5DD22C /* libPods-FYNetToolUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 488F989A764423B92131C60D /* libPods-FYNetToolUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E897411222E1F7E00B465EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E8973F0222E1F7D00B465EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8973F7222E1F7D00B465EA;
+			remoteInfo = FYNetTool;
+		};
+		1E89741C222E1F7E00B465EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E8973F0222E1F7D00B465EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8973F7222E1F7D00B465EA;
+			remoteInfo = FYNetTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E757ECC6D44F03376465C99 /* libPods-FYNetTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYNetTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1451D21B4A7084C680F024F5 /* Pods-FYNetToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetToolTests.release.xcconfig"; path = "Target Support Files/Pods-FYNetToolTests/Pods-FYNetToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C13F9004610B07B0835BBC1 /* Pods-FYNetTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetTool.debug.xcconfig"; path = "Target Support Files/Pods-FYNetTool/Pods-FYNetTool.debug.xcconfig"; sourceTree = "<group>"; };
+		1E8973F8222E1F7D00B465EA /* FYNetTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYNetTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8973FB222E1F7D00B465EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E8973FC222E1F7D00B465EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E8973FE222E1F7D00B465EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E8973FF222E1F7D00B465EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E897402222E1F7D00B465EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E897404222E1F7E00B465EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E897407222E1F7E00B465EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E897409222E1F7E00B465EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E89740A222E1F7E00B465EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E897410222E1F7E00B465EA /* FYNetToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYNetToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E897414222E1F7E00B465EA /* FYNetToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYNetToolTests.m; sourceTree = "<group>"; };
+		1E897416222E1F7E00B465EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E89741B222E1F7E00B465EA /* FYNetToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYNetToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E89741F222E1F7E00B465EA /* FYNetToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYNetToolUITests.m; sourceTree = "<group>"; };
+		1E897421222E1F7E00B465EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E897477222E40D400B465EA /* FYNetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNetWorkHelper.h; sourceTree = "<group>"; };
+		1E897478222E40D400B465EA /* FYNetWorkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNetWorkCache.m; sourceTree = "<group>"; };
+		1E897479222E40D400B465EA /* FYNetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNetWorkHelper.m; sourceTree = "<group>"; };
+		1E89747A222E40D400B465EA /* FYNetWorkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNetWorkCache.h; sourceTree = "<group>"; };
+		1E89747D222E410800B465EA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		488F989A764423B92131C60D /* libPods-FYNetToolUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYNetToolUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EB1286888F13885145F720 /* Pods-FYNetTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetTool.release.xcconfig"; path = "Target Support Files/Pods-FYNetTool/Pods-FYNetTool.release.xcconfig"; sourceTree = "<group>"; };
+		926DECBEA4869BA404F028D4 /* Pods-FYNetToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetToolUITests.release.xcconfig"; path = "Target Support Files/Pods-FYNetToolUITests/Pods-FYNetToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9388A4284312501AC27D3B52 /* Pods-FYNetToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetToolTests.debug.xcconfig"; path = "Target Support Files/Pods-FYNetToolTests/Pods-FYNetToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE33EAF4AFDB5C02889677DE /* Pods-FYNetToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetToolUITests.debug.xcconfig"; path = "Target Support Files/Pods-FYNetToolUITests/Pods-FYNetToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F791FE93FA39B48AF84D4F /* libPods-FYNetToolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYNetToolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8973F5222E1F7D00B465EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1AAC188CCBADF1501BB8B1 /* libPods-FYNetTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E89740D222E1F7E00B465EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36053E1B1429AEDB9B33E9A2 /* libPods-FYNetToolTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E897418222E1F7E00B465EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD96B90AAE022735B5DD22C /* libPods-FYNetToolUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B48407B1193CB4D4FA12D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E757ECC6D44F03376465C99 /* libPods-FYNetTool.a */,
+				D9F791FE93FA39B48AF84D4F /* libPods-FYNetToolTests.a */,
+				488F989A764423B92131C60D /* libPods-FYNetToolUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E8973EF222E1F7D00B465EA = {
+			isa = PBXGroup;
+			children = (
+				1E8973FA222E1F7D00B465EA /* FYNetTool */,
+				1E897413222E1F7E00B465EA /* FYNetToolTests */,
+				1E89741E222E1F7E00B465EA /* FYNetToolUITests */,
+				1E8973F9222E1F7D00B465EA /* Products */,
+				C7ADEC683A523506AEAB5825 /* Pods */,
+				1B48407B1193CB4D4FA12D18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E8973F9222E1F7D00B465EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8973F8222E1F7D00B465EA /* FYNetTool.app */,
+				1E897410222E1F7E00B465EA /* FYNetToolTests.xctest */,
+				1E89741B222E1F7E00B465EA /* FYNetToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8973FA222E1F7D00B465EA /* FYNetTool */ = {
+			isa = PBXGroup;
+			children = (
+				1E897476222E40D400B465EA /* FYNetTool */,
+				1E8973FB222E1F7D00B465EA /* AppDelegate.h */,
+				1E8973FC222E1F7D00B465EA /* AppDelegate.m */,
+				1E8973FE222E1F7D00B465EA /* ViewController.h */,
+				1E8973FF222E1F7D00B465EA /* ViewController.m */,
+				1E897401222E1F7D00B465EA /* Main.storyboard */,
+				1E897404222E1F7E00B465EA /* Assets.xcassets */,
+				1E897406222E1F7E00B465EA /* LaunchScreen.storyboard */,
+				1E897409222E1F7E00B465EA /* Info.plist */,
+				1E89740A222E1F7E00B465EA /* main.m */,
+				1E89747D222E410800B465EA /* PrefixHeader.pch */,
+			);
+			path = FYNetTool;
+			sourceTree = "<group>";
+		};
+		1E897413222E1F7E00B465EA /* FYNetToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E897414222E1F7E00B465EA /* FYNetToolTests.m */,
+				1E897416222E1F7E00B465EA /* Info.plist */,
+			);
+			path = FYNetToolTests;
+			sourceTree = "<group>";
+		};
+		1E89741E222E1F7E00B465EA /* FYNetToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E89741F222E1F7E00B465EA /* FYNetToolUITests.m */,
+				1E897421222E1F7E00B465EA /* Info.plist */,
+			);
+			path = FYNetToolUITests;
+			sourceTree = "<group>";
+		};
+		1E897476222E40D400B465EA /* FYNetTool */ = {
+			isa = PBXGroup;
+			children = (
+				1E897477222E40D400B465EA /* FYNetWorkHelper.h */,
+				1E897478222E40D400B465EA /* FYNetWorkCache.m */,
+				1E897479222E40D400B465EA /* FYNetWorkHelper.m */,
+				1E89747A222E40D400B465EA /* FYNetWorkCache.h */,
+			);
+			path = FYNetTool;
+			sourceTree = "<group>";
+		};
+		C7ADEC683A523506AEAB5825 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C13F9004610B07B0835BBC1 /* Pods-FYNetTool.debug.xcconfig */,
+				54EB1286888F13885145F720 /* Pods-FYNetTool.release.xcconfig */,
+				9388A4284312501AC27D3B52 /* Pods-FYNetToolTests.debug.xcconfig */,
+				1451D21B4A7084C680F024F5 /* Pods-FYNetToolTests.release.xcconfig */,
+				AE33EAF4AFDB5C02889677DE /* Pods-FYNetToolUITests.debug.xcconfig */,
+				926DECBEA4869BA404F028D4 /* Pods-FYNetToolUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E8973F7222E1F7D00B465EA /* FYNetTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E897424222E1F7E00B465EA /* Build configuration list for PBXNativeTarget "FYNetTool" */;
+			buildPhases = (
+				75BEC849567196C7B5AC8934 /* [CP] Check Pods Manifest.lock */,
+				1E8973F4222E1F7D00B465EA /* Sources */,
+				1E8973F5222E1F7D00B465EA /* Frameworks */,
+				1E8973F6222E1F7D00B465EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYNetTool;
+			productName = FYNetTool;
+			productReference = 1E8973F8222E1F7D00B465EA /* FYNetTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E89740F222E1F7E00B465EA /* FYNetToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E897427222E1F7E00B465EA /* Build configuration list for PBXNativeTarget "FYNetToolTests" */;
+			buildPhases = (
+				32C030FCB09623D26570A51D /* [CP] Check Pods Manifest.lock */,
+				1E89740C222E1F7E00B465EA /* Sources */,
+				1E89740D222E1F7E00B465EA /* Frameworks */,
+				1E89740E222E1F7E00B465EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E897412222E1F7E00B465EA /* PBXTargetDependency */,
+			);
+			name = FYNetToolTests;
+			productName = FYNetToolTests;
+			productReference = 1E897410222E1F7E00B465EA /* FYNetToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E89741A222E1F7E00B465EA /* FYNetToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E89742A222E1F7E00B465EA /* Build configuration list for PBXNativeTarget "FYNetToolUITests" */;
+			buildPhases = (
+				7AAE309DAE340F817EA1E0F6 /* [CP] Check Pods Manifest.lock */,
+				1E897417222E1F7E00B465EA /* Sources */,
+				1E897418222E1F7E00B465EA /* Frameworks */,
+				1E897419222E1F7E00B465EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E89741D222E1F7E00B465EA /* PBXTargetDependency */,
+			);
+			name = FYNetToolUITests;
+			productName = FYNetToolUITests;
+			productReference = 1E89741B222E1F7E00B465EA /* FYNetToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E8973F0222E1F7D00B465EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					1E8973F7222E1F7D00B465EA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1E89740F222E1F7E00B465EA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1E8973F7222E1F7D00B465EA;
+					};
+					1E89741A222E1F7E00B465EA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1E8973F7222E1F7D00B465EA;
+					};
+				};
+			};
+			buildConfigurationList = 1E8973F3222E1F7D00B465EA /* Build configuration list for PBXProject "FYNetTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E8973EF222E1F7D00B465EA;
+			productRefGroup = 1E8973F9222E1F7D00B465EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E8973F7222E1F7D00B465EA /* FYNetTool */,
+				1E89740F222E1F7E00B465EA /* FYNetToolTests */,
+				1E89741A222E1F7E00B465EA /* FYNetToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8973F6222E1F7D00B465EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E897408222E1F7E00B465EA /* LaunchScreen.storyboard in Resources */,
+				1E897405222E1F7E00B465EA /* Assets.xcassets in Resources */,
+				1E897403222E1F7D00B465EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E89740E222E1F7E00B465EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E897419222E1F7E00B465EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32C030FCB09623D26570A51D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYNetToolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75BEC849567196C7B5AC8934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYNetTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AAE309DAE340F817EA1E0F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYNetToolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8973F4222E1F7D00B465EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E89747B222E40D400B465EA /* FYNetWorkCache.m in Sources */,
+				1E897400222E1F7D00B465EA /* ViewController.m in Sources */,
+				1E89747C222E40D400B465EA /* FYNetWorkHelper.m in Sources */,
+				1E89740B222E1F7E00B465EA /* main.m in Sources */,
+				1E8973FD222E1F7D00B465EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E89740C222E1F7E00B465EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E897415222E1F7E00B465EA /* FYNetToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E897417222E1F7E00B465EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E897420222E1F7E00B465EA /* FYNetToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E897412222E1F7E00B465EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E8973F7222E1F7D00B465EA /* FYNetTool */;
+			targetProxy = 1E897411222E1F7E00B465EA /* PBXContainerItemProxy */;
+		};
+		1E89741D222E1F7E00B465EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E8973F7222E1F7D00B465EA /* FYNetTool */;
+			targetProxy = 1E89741C222E1F7E00B465EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E897401222E1F7D00B465EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E897402222E1F7D00B465EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E897406222E1F7E00B465EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E897407222E1F7E00B465EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E897422222E1F7E00B465EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E897423222E1F7E00B465EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E897425222E1F7E00B465EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C13F9004610B07B0835BBC1 /* Pods-FYNetTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = FYNetTool/PrefixHeader.pch;
+				INFOPLIST_FILE = FYNetTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYNetTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E897426222E1F7E00B465EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EB1286888F13885145F720 /* Pods-FYNetTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = FYNetTool/PrefixHeader.pch;
+				INFOPLIST_FILE = FYNetTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYNetTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E897428222E1F7E00B465EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9388A4284312501AC27D3B52 /* Pods-FYNetToolTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYNetToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYNetToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYNetTool.app/FYNetTool";
+			};
+			name = Debug;
+		};
+		1E897429222E1F7E00B465EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1451D21B4A7084C680F024F5 /* Pods-FYNetToolTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYNetToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYNetToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYNetTool.app/FYNetTool";
+			};
+			name = Release;
+		};
+		1E89742B222E1F7E00B465EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE33EAF4AFDB5C02889677DE /* Pods-FYNetToolUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYNetToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYNetToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYNetTool;
+			};
+			name = Debug;
+		};
+		1E89742C222E1F7E00B465EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926DECBEA4869BA404F028D4 /* Pods-FYNetToolUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYNetToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYNetToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYNetTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8973F3222E1F7D00B465EA /* Build configuration list for PBXProject "FYNetTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E897422222E1F7E00B465EA /* Debug */,
+				1E897423222E1F7E00B465EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E897424222E1F7E00B465EA /* Build configuration list for PBXNativeTarget "FYNetTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E897425222E1F7E00B465EA /* Debug */,
+				1E897426222E1F7E00B465EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E897427222E1F7E00B465EA /* Build configuration list for PBXNativeTarget "FYNetToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E897428222E1F7E00B465EA /* Debug */,
+				1E897429222E1F7E00B465EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E89742A222E1F7E00B465EA /* Build configuration list for PBXNativeTarget "FYNetToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E89742B222E1F7E00B465EA /* Debug */,
+				1E89742C222E1F7E00B465EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E8973F0222E1F7D00B465EA /* Project object */;
+}
